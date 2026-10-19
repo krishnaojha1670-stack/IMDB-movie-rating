@@ -1,9 +1,5 @@
 # IMDB Sentiment Analyzer 🎬
 
-A movie review sentiment classifier trained on the **IMDB 50K Dataset** using **Doc2Vec embeddings** and **Logistic Regression**.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
-
 ---
 
 ## 📊 Model Performance
@@ -56,32 +52,7 @@ App opens at → `http://localhost:8501`
 
 ## ☁️ Deploy to Streamlit Cloud
 
-1. Push this repo to GitHub (make sure model files are committed)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Click **"New app"** → select your repo → set `app.py` as the main file
-4. Click **Deploy** 🚀
-
-> **Note:** The `doc2vec_model.model` file is ~62 MB. GitHub allows files up to 100 MB, so it fits without Git LFS. If you get issues, use Git LFS.
-
----
-
-## 🧠 How It Works
-
-```
-Review Text
-    │
-    ▼
-[simple_preprocess]  ← tokenize & lowercase
-    │
-    ▼
-[Doc2Vec.infer_vector]  ← convert to 100-dim vector
-    │
-    ▼
-[LogisticRegression.predict]  ← classify
-    │
-    ▼
-positive / negative + confidence score
-```
+link :- https://imdb-movie-rating-ah8kpfolgxqmepvrqji2wy.streamlit.app/
 
 ---
 
@@ -96,3 +67,5 @@ positive / negative + confidence score
 ---
 
 *Built with ❤️ · Trained on IMDB Dataset*
+owner 
+krishna ojha
